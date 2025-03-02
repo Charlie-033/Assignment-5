@@ -20,7 +20,7 @@ completeBtn.addEventListener("click", function (e) {
   document.getElementById("task-assigned").innerText = convertTaskAssigned - 1;
   document.getElementById("task-complete").innerText = convertTaskCompleted + 1;
 
-  if((convertTaskCompleted + 1) === 28){
+  if((convertTaskCompleted + 1) === 29){
     alert('Congratulations!! You have completed all the current task.')
   }
 
@@ -62,7 +62,7 @@ completeBtn2.addEventListener("click", function (e) {
   document.getElementById("task-assigned").innerText = convertTaskAssigned - 1;
   document.getElementById("task-complete").innerText = convertTaskCompleted + 1;
 
-  if((convertTaskCompleted + 1) === 28){
+  if((convertTaskCompleted + 1) === 29){
     alert('Congratulations!! You have completed all the current task.')
   }
 
@@ -104,7 +104,7 @@ completeBtn3.addEventListener("click", function (e) {
   document.getElementById("task-assigned").innerText = convertTaskAssigned - 1;
   document.getElementById("task-complete").innerText = convertTaskCompleted + 1;
 
-  if((convertTaskCompleted + 1) === 28){
+  if((convertTaskCompleted + 1) === 29){
     alert('Congratulations!! You have completed all the current task.')
   }
 
@@ -146,7 +146,7 @@ completeBtn4.addEventListener("click", function (e) {
   document.getElementById("task-assigned").innerText = convertTaskAssigned - 1;
   document.getElementById("task-complete").innerText = convertTaskCompleted + 1;
 
-  if((convertTaskCompleted + 1) === 28){
+  if((convertTaskCompleted + 1) === 29){
     alert('Congratulations!! You have completed all the current task.')
   }
 
@@ -188,7 +188,7 @@ completeBtn5.addEventListener("click", function (e) {
   document.getElementById("task-assigned").innerText = convertTaskAssigned - 1;
   document.getElementById("task-complete").innerText = convertTaskCompleted + 1;
 
-  if((convertTaskCompleted + 1) === 28){
+  if((convertTaskCompleted + 1) === 29){
     alert('Congratulations!! You have completed all the current task.')
   }
 
@@ -230,7 +230,7 @@ completeBtn6.addEventListener("click", function (e) {
   document.getElementById("task-assigned").innerText = convertTaskAssigned - 1;
   document.getElementById("task-complete").innerText = convertTaskCompleted + 1;
 
-  if((convertTaskCompleted + 1) === 28){
+  if((convertTaskCompleted + 1) === 29){
     alert('Congratulations!! You have completed all the current task.')
   }
 
