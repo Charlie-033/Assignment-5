@@ -259,4 +259,20 @@ completeBtn6.addEventListener("click", function (e) {
 document.getElementById("theme-btn").addEventListener('click', function(e){
     e.preventDefault();
     document.querySelector('body').style.backgroundColor = randomColor();
+});
+
+// Clear history
+
+document.getElementById('clean-history').addEventListener('click', function(e){
+    e.preventDefault();
+    const historyDiv = document.getElementById("history-info");
+    historyDiv.innerHTML = "";
 })
+
+// Live date
+
+setInterval(function() {
+    const dateDiv = document.getElementById('live-date');
+    const currentDate = new Date();
+    dateDiv.innerText = currentDate.toDateString();
+}, 1000)

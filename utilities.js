@@ -9,7 +9,6 @@ document.getElementById("discover-new").addEventListener("click", function (e) {
 });
 
 // RGBA value
-
 function randomColor(){
     const hex = '0123456789ABCDEF';
     let color = '#';
